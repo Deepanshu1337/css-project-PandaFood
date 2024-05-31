@@ -1,0 +1,157 @@
+/* 
+===================================================================================
+=================GENERAL REUSABLE COMPONENTS=======================================
+==================================================================================
+*/
+.btn {
+    display: inline-block;
+    padding: 1.6rem 3.2rem;
+    text-decoration: none;
+    font-size: 2rem;
+    border-radius: 0.9rem;
+    font-family: inherit;
+    color: #fff;
+    /* cursor: pointer; */
+}
+
+.btn--full {
+    background-color: #e67e22;
+}
+
+.btn--outline {
+    background-color: #fff;
+    color: #555;
+}
+
+.btn--full:hover {
+    background-color: #cf711f;
+}
+
+.btn--outline:hover {
+    background-color: #fdf2e9;
+}
+.margin-right-sm {
+    margin-right: 1.6rem;
+}
+
+/* 
+===================================================================================
+=================HEADER SECTION================================================
+==================================================================================
+*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdf2e9;
+    padding: 0 4.8rem;
+}
+.logo{
+    height: 4rem;
+}
+
+/* 
+===================================================================================
+=================NAVIGATION SECTION================================================
+==================================================================================
+*/
+.main-nav-list{
+    list-style-type: none;
+    display: flex;
+    gap: 3.2rem;
+}
+.main-nav-links{
+    text-decoration: none;
+    font-weight: 700;
+    color: #333;
+    font-size: 1.8rem;
+    transition: all 0.3s;
+
+}
+
+.main-nav-links:hover{
+    color: #e67e22;
+}
+.main-nav-cta{
+    padding: 1.2rem 2.4rem;
+    border-radius: 1rem;
+    background-color: #e67e22;
+    color: white;
+}
+.main-nav-cta:hover{
+background-color: #cf711f;
+color: white;
+}
+
+
+/* 
+===================================================================================
+=================HERO SECTION ================================================
+==================================================================================
+*/
+.hero-section {
+    background-color: #fdf2e9;
+    padding: 9.6rem 0;
+}
+
+.hero {
+  
+    max-width: 130rem;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 9.6rem;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.primary-heading{
+    color: #333;
+    font-size: 5.2rem;
+    line-height: 1.05;
+    font-weight: 700;
+    margin-bottom: 3.2rem;
+}
+.hero-desc{
+    font-size: 2rem;
+    line-height: 1.6;  
+    margin-bottom: 4.8rem;
+}
+
+.delivered-meals {
+    display: flex;
+    align-items: center;
+    margin-top: 8rem;
+    gap: 3rem;
+}
+
+.delivered-imgs {
+    display: flex;
+}
+
+.delivered-imgs img {
+    height: 4.8rem;
+    width: 4.8rem;
+    border-radius: 50%;
+    margin-right: -1.6rem;
+    border: 3px solid #fdf2e9
+}
+
+.delivered-text {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.delivered-text span {
+    color: #cf711f;
+    font-weight: 700;
+}
+/* 
+===================================================================================
+=================HERO SECTION================================================
+==================================================================================
+*/
