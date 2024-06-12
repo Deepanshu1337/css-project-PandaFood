@@ -30,8 +30,70 @@
 .btn--outline:hover {
     background-color: #fdf2e9;
 }
+
 .margin-right-sm {
     margin-right: 1.6rem;
+}
+
+.heading-secondry {
+    font-size: 4.4rem;
+    line-height: 1.2;
+    margin-bottom: 9.6rem;
+    color: #333;
+}
+
+.subheading {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #cf711f;
+    margin-bottom: 1.6rem;
+}
+
+.heading-tertiary {
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #333;
+    margin-bottom: 3.2rem;
+}
+
+/* -------------------CODE FOR GRID -------------------------------- */
+.container {
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+}
+
+.grid--2-cols {
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.grid--3-cols {
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+
+.grid--4-cols {
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.grid--5-cols {
+    grid-template-columns: repeat(5, 1fr);
+
+}
+
+.grid--center-v {
+    align-items: center;
 }
 
 /* 
@@ -39,14 +101,15 @@
 =================HEADER SECTION================================================
 ==================================================================================
 */
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #fdf2e9;
     padding: 0 4.8rem;
 }
-.logo{
+
+.logo {
     height: 4rem;
 }
 
@@ -55,12 +118,13 @@
 =================NAVIGATION SECTION================================================
 ==================================================================================
 */
-.main-nav-list{
+.main-nav-list {
     list-style-type: none;
     display: flex;
     gap: 3.2rem;
 }
-.main-nav-links{
+
+.main-nav-links {
     text-decoration: none;
     font-weight: 600;
     color: #333;
@@ -69,18 +133,20 @@
 
 }
 
-.main-nav-links:hover{
+.main-nav-links:hover {
     color: #e67e22;
 }
-.main-nav-cta{
+
+.main-nav-cta {
     padding: 1.2rem 2.4rem;
     border-radius: 1rem;
     background-color: #e67e22;
     color: white;
 }
-.main-nav-cta:hover{
-background-color: #cf711f;
-color: white;
+
+.main-nav-cta:hover {
+    background-color: #cf711f;
+    color: white;
 }
 
 
@@ -95,7 +161,7 @@ color: white;
 }
 
 .hero {
-  
+
     max-width: 130rem;
     margin: 0 auto;
 
@@ -109,16 +175,17 @@ color: white;
     width: 100%;
 }
 
-.primary-heading{
+.primary-heading {
     color: #333;
     font-size: 5.2rem;
     line-height: 1.05;
     font-weight: 700;
     margin-bottom: 3.2rem;
 }
-.hero-desc{
+
+.hero-desc {
     font-size: 2rem;
-    line-height: 1.6;  
+    line-height: 1.6;
     margin-bottom: 4.8rem;
 }
 
@@ -150,8 +217,79 @@ color: white;
     color: #cf711f;
     font-weight: 700;
 }
+
 /* 
 ===================================================================================
-=================HERO SECTION================================================
+================= FEATURED SECTION ================================================
 ==================================================================================
 */
+.section-featured {
+    padding: 4.8rem 0;
+
+}
+
+.container {
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+}
+
+.featured-in-heading {
+    font-size: 1.4rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #888;
+    margin-bottom: 2.4rem;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logos img {
+    height: 3.2rem;
+    filter: brightness(0);
+    opacity: 50%;
+}
+
+/* 
+===================================================================================
+================= HOW IT WORKS SECTION ================================================
+==================================================================================
+*/
+
+.section-how {
+    padding: 9.6rem 0;
+margin: 0 auto;
+}
+
+.step-img {
+    width: 35%;
+}
+
+.step-number {
+    font-size: 8.6rem;
+    color: #ddd;
+    font-weight: 600;
+}
+
+.step-description {
+    font-size: 1.8rem;
+    line-height: 1.8;
+
+}
+/* 
+===================================================================================
+=================SECTION CTA ================================================
+==================================================================================
+*/
+
+.cta{
+    display: flex;
+    
+}
+.cta-img-box{
+
+}
