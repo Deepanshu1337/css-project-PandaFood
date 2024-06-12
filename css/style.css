@@ -45,7 +45,7 @@
 .subheading {
     display: block;
     font-size: 1.6rem;
-    font-weight: 400;
+    font-weight: 600;
     text-transform: uppercase;
     color: #cf711f;
     margin-bottom: 1.6rem;
@@ -107,6 +107,7 @@
     align-items: center;
     background-color: #fdf2e9;
     padding: 0 4.8rem;
+    height: 9.6rem;
 }
 
 .logo {
@@ -259,10 +260,38 @@
 ================= HOW IT WORKS SECTION ================================================
 ==================================================================================
 */
+.step-img-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.step-img-box::before {
+    content: "";
+    padding-bottom: 60%;
+    ;
+    width: 60%;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #fdf2e9;
+    z-index: -2;
+}
+
+.step-img-box::after {
+    content: "";
+    padding-bottom: 45%;
+    ;
+    width: 45%;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #fae5d3;
+    z-index: -1;
+}
 
 .section-how {
     padding: 9.6rem 0;
-margin: 0 auto;
+    margin: 0 auto;
 }
 
 .step-img {
@@ -280,16 +309,160 @@ margin: 0 auto;
     line-height: 1.8;
 
 }
+
 /* 
 ===================================================================================
 =================SECTION CTA ================================================
 ==================================================================================
 */
+.section-cta {
+    padding: 4.8rem 0 12.8rem;
+}
 
-.cta{
-    display: flex;
+.cta {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+
+    margin-bottom: 10rem;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.cta-img-box {
+    background-image: linear-gradient(to right bottom, rgba(235, 151, 78, 0.35), rgba(230, 125, 34, 0.35)), url("../Images/eating.jpg");
+    background-size: cover;
+}
+
+.cta-text-box {
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+}
+.cta .heading-secondry{
+    color: #45260a;
+    margin-bottom: 3.2rem;
     
 }
-.cta-img-box{
+.cta-text{
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    margin-bottom: 4.8rem;
+    color: #45260a;
+}
+.cta-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3.2rem;
+    row-gap: 2.4rem;
+}
 
+.cta-form label{
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+    color:#45260a; 
+    
+}
+.cta-form select, .cta-form input{
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    font-family: inherit;
+    color: #45260a;
+    border: none;
+    border-radius: 9px;
+    background-color: #fdf2e9;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+
+}
+.cta-form *:focus{
+    outline: none;
+    box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+
+}
+
+.btn--form{
+    align-self: end;
+    font-size: 2rem;
+    padding: 1.2rem;
+    font-weight: 600;
+    background-color: #45260a;
+    color:#fdf2e9;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    font-family: inherit;
+    transition: all 0.3s;
+}
+.btn--form:hover{
+    background-color: #fdf2e9;
+    color: #45260a;
+}
+/* 
+===================================================================================
+=================FOOTER SECTION=======================================
+==================================================================================
+*/
+.footer{
+    padding: 12.8rem 0;
+    border: 1px solid #eee;
+}
+.grid--footer{
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+.logo-col{
+    display: flex;
+    flex-direction: column;
+}
+.footer-logo{
+    margin-bottom: 3.2rem;
+}    
+.social-links{
+    list-style: none;
+    display: flex;
+    gap: 2.4rem;
+}
+.social-icons{
+    height: 2.4rem;
+    width: 2.4rem;
+}
+
+.copyright{
+    margin-top: 3.2rem;
+ font-size: 1.4rem;
+ line-height: 1.8;
+ color: #767676;
+ margin-top: 3.2rem;   
+}
+.footer-heading{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 4rem;
+}
+.contacts{
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+.address{
+    margin-bottom: 2.4rem;
+}
+.footer-nav{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+
+}
+.footer-link{
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #767676;
+    transition: all 0.3s;
+}
+.footer-link:hover{
+color: #555;
+text-decoration: underline;
 }
