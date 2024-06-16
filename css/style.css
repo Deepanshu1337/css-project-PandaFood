@@ -108,6 +108,7 @@
     background-color: #fdf2e9;
     padding: 0 4.8rem;
     height: 9.6rem;
+    position: relative;
 }
 
 .logo {
@@ -122,7 +123,8 @@
 .main-nav-list {
     list-style-type: none;
     display: flex;
-    gap: 3.2rem;
+    align-items: center;
+    gap: 4rem;
 }
 
 .main-nav-links {
@@ -148,6 +150,23 @@
 .main-nav-cta:hover {
     background-color: #cf711f;
     color: white;
+}
+
+/* mobile */
+.btn-mobile-nav {
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: none;
+}
+
+.icon-mobile-nav {
+    height: 4.2rem;
+    width: 4.2rem;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+    display: none;
 }
 
 
@@ -302,6 +321,7 @@
     font-size: 8.6rem;
     color: #ddd;
     font-weight: 600;
+    margin-bottom: 3rem;
 }
 
 .step-description {
@@ -324,7 +344,7 @@
     grid-template-columns: 2fr 1fr;
     background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
 
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
     box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
     border-radius: 12px;
     overflow: hidden;
@@ -338,33 +358,38 @@
 .cta-text-box {
     padding: 4.8rem 6.4rem 6.4rem 6.4rem;
 }
-.cta .heading-secondry{
+
+.cta .heading-secondry {
     color: #45260a;
     margin-bottom: 3.2rem;
-    
+
 }
-.cta-text{
+
+.cta-text {
     font-size: 1.8rem;
     line-height: 1.8rem;
     margin-bottom: 4.8rem;
     color: #45260a;
 }
-.cta-form{
+
+.cta-form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 3.2rem;
     row-gap: 2.4rem;
 }
 
-.cta-form label{
+.cta-form label {
     display: block;
     font-size: 1.6rem;
     font-weight: 500;
     margin-bottom: 1.2rem;
-    color:#45260a; 
-    
+    color: #45260a;
+
 }
-.cta-form select, .cta-form input{
+
+.cta-form select,
+.cta-form input {
     width: 100%;
     padding: 1.2rem;
     font-size: 1.8rem;
@@ -377,92 +402,106 @@
     transition: all 0.3s;
 
 }
-.cta-form *:focus{
+
+.cta-form *:focus {
     outline: none;
     box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 
 }
 
-.btn--form{
+.btn--form {
     align-self: end;
     font-size: 2rem;
     padding: 1.2rem;
     font-weight: 600;
     background-color: #45260a;
-    color:#fdf2e9;
+    color: #fdf2e9;
     border: none;
     cursor: pointer;
     border-radius: 9px;
     font-family: inherit;
     transition: all 0.3s;
 }
-.btn--form:hover{
+
+.btn--form:hover {
     background-color: #fdf2e9;
     color: #45260a;
 }
+
 /* 
 ===================================================================================
 =================FOOTER SECTION=======================================
 ==================================================================================
 */
-.footer{
+.footer {
     padding: 12.8rem 0;
     border: 1px solid #eee;
 }
-.grid--footer{
+
+.grid--footer {
     grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
 }
-.logo-col{
+
+.logo-col {
     display: flex;
     flex-direction: column;
 }
-.footer-logo{
+
+.footer-logo {
     margin-bottom: 3.2rem;
-}    
-.social-links{
+}
+
+.social-links {
     list-style: none;
     display: flex;
     gap: 2.4rem;
 }
-.social-icons{
+
+.social-icons {
     height: 2.4rem;
     width: 2.4rem;
 }
 
-.copyright{
+.copyright {
     margin-top: 3.2rem;
- font-size: 1.4rem;
- line-height: 1.8;
- color: #767676;
- margin-top: 3.2rem;   
+    font-size: 1.4rem;
+    line-height: 1.8;
+    color: #767676;
+    margin-top: 3.2rem;
 }
-.footer-heading{
+
+.footer-heading {
     font-size: 1.8rem;
     font-weight: 500;
     margin-bottom: 4rem;
 }
-.contacts{
+
+.contacts {
     font-style: normal;
     font-size: 1.6rem;
     line-height: 1.6;
 }
-.address{
+
+.address {
     margin-bottom: 2.4rem;
 }
-.footer-nav{
+
+.footer-nav {
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 2.4rem;
 
 }
-.footer-link{
+
+.footer-link {
     font-size: 1.6rem;
     text-decoration: none;
     color: #767676;
     transition: all 0.3s;
 }
-.footer-link:hover{
-color: #555;
-text-decoration: underline;
+
+.footer-link:hover {
+    color: #555;
+    text-decoration: underline;
 }
