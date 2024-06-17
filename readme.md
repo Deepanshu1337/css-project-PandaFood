@@ -6,7 +6,7 @@
 - [Features](#features)
 - [Technologies](#technologies)
 - [Installation](#installation)
-- [Useful Url's](#useful-Url's)
+- [Useful URLs](#Useful-URLs)
 - [Screenshots](#screenshots)
 - [Contact](#contact)
 
