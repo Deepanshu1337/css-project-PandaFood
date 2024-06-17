@@ -89,9 +89,11 @@ Provide step-by-step instructions on how to set up the project locally:
 
 3. Open the index.html file in your browser or in live server inside vs code .
 
-## USefulUrl's
+## Useful URLs
 
-### live
+- **Solution URL:** [Github Repository](https://github.com/Deepanshu1337/css-project-PandaFood)
+- **Live URL:** [Live site](https://deepanshu1337.github.io/css-project-PandaFood/)
+
 
 ## Screenshots
 
@@ -99,14 +101,6 @@ Provide step-by-step instructions on how to set up the project locally:
 
 ## Contact
 
-###
-
-Email: [https://mailto:deepanshudixit07@gmail.com]
-
-###
-
-GitHub: [(https://github.com/Deepanshu1337)]
-
-###
-
-linkedIN: [https://www.linkedin.com/in/deepanshudixit280/]
+- **Email:** [deepanshudixit07@gmail.com](mailto:deepanshudixit07@gmail.com)
+- **GitHub:** [Deepanshu1337](https://github.com/Deepanshu1337)
+- **LinkedIn:** [Deepanshu Dixit](https://www.linkedin.com/in/deepanshudixit280/)
