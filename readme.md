@@ -80,7 +80,7 @@ Provide step-by-step instructions on how to set up the project locally:
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/yourproject.git
+   git clone https://github.com/Deepanshu1337/css-project-PandaFood.git
 
    ```
 
@@ -95,9 +95,18 @@ Provide step-by-step instructions on how to set up the project locally:
 - **Live URL:** [Live site](https://deepanshu1337.github.io/css-project-PandaFood/)
 
 
-## Screenshots
+### Desktop Design
 
-![Desktop Design] ()
+| ![Desktop Design 1](./design/desktop/Desktop1.png) | ![Desktop Design 2](./design/desktop/Desktop2.png) |
+|------------------------------------------------------|------------------------------------------------------|
+| ![Desktop Design 3](./design/desktop/Desktop3.png) | ![Desktop Design 4](./design/desktop/Desktop4.png) |
+
+### Mobile Design
+
+| ![Mobile Design 1](./design/mobile/m1.png) | ![Mobile Design 2](./design/mobile/m2.png) |
+|----------------------------------------------------|----------------------------------------------------|
+| ![Mobile Design 3](./design/mobile/m3.png) | ![Mobile Design 4](./design/mobile/m4.png) |
+
 
 ## Contact
 

@@ -156,6 +156,10 @@
         margin-bottom: 4.8rem;
     }
 
+    .hero-section {
+        padding: 4.6rem 0 0.6rem 0
+    }
+
     .grid--footer {
         grid-template-columns: repeat(6, 1fr);
     }
@@ -191,6 +195,9 @@
     .hero {
         padding: 0 3.2rem;
     }
+    .section-how{
+        padding: 1.6rem ;
+    }
 
     .btn {
         padding: 2.4rem 1.6rem;
@@ -207,18 +214,21 @@
     .order-5 {
         grid-row: 5;
     }
-    .logos img{
+
+    .logos img {
         height: 1.2rem;
     }
 
-    .cta{
+    .cta {
         grid-template-columns: 1fr;
     }
-    .cta-img-box{
+
+    .cta-img-box {
         height: 40rem;
         grid-row: 1;
     }
-    .cta-text-box{
+
+    .cta-text-box {
         padding: 3.2rem;
     }
 }
