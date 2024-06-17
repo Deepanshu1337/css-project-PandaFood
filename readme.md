@@ -6,7 +6,7 @@
 - [Features](#features)
 - [Technologies](#technologies)
 - [Installation](#installation)
-- [Useful Url's](#useful Url's)
+- [Useful Url's](#usefulUrl's)
 - [Screenshots](#screenshots)
 - [Contact](#contact)
 
@@ -89,7 +89,7 @@ Provide step-by-step instructions on how to set up the project locally:
 
 3. Open the index.html file in your browser or in live server inside vs code .
 
-## USeful Url's
+## USefulUrl's
 
 ### live
 
